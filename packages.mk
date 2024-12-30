@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
     FontSatoshiOverlay \
     FontSourceCodeProOverlay \
     CustomFontPixelLauncherOverlay \
-    CertifiedPropsOverlay
+    CertifiedPropsOverlay \
+    PermissionControllerOverlay
 
 PRODUCT_COPY_FILES += vendor/overlays/404/partition_order.xml:$(TARGET_COPY_OUT_PRODUCT)/overlay/partition_order.xml
