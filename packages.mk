@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
     FontPoppinsOverlay \
     FontWorkSansOverlay \
     FontSatoshiOverlay \
-    FontSourceCodeProOverlay
+    FontSourceCodeProOverlay \
+    CustomFontPixelLauncherOverlay
 
 PRODUCT_COPY_FILES += vendor/overlays/404/partition_order.xml:$(TARGET_COPY_OUT_PRODUCT)/overlay/partition_order.xml
