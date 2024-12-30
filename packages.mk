@@ -25,6 +25,7 @@ PRODUCT_PACKAGES += \
     FontSourceCodeProOverlay \
     CustomFontPixelLauncherOverlay \
     CertifiedPropsOverlay \
-    PermissionControllerOverlay
+    PermissionControllerOverlay \
+    ThemedIconsOverlay
 
 PRODUCT_COPY_FILES += vendor/overlays/404/partition_order.xml:$(TARGET_COPY_OUT_PRODUCT)/overlay/partition_order.xml
